@@ -18,21 +18,7 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i&display=swap" rel="stylesheet">
         <link href="./css/styles.css" rel="stylesheet" media="screen">
         
-        <audio id="myAudio" preload="metadata" loop>
-            <source src="audio/music.webm" type="audio/webm">
-        </audio>
-        <script>
-        var x = document.getElementById("myAudio"); 
-        function playAudio() { 
-            if ($('.audio').hasClass('start'))  {
-                x.pause();
-                $('.audio').removeClass('start');
-            } else {
-                x.play();
-                $('.audio').addClass('start');
-            }
-        }
-        </script>
+        
     </head>
     <body>
         <div class="animsition">
@@ -104,18 +90,7 @@
             </header>
 
             <div class="copy-bottom white boxed">© Leyton 2020.</div>
-            <div class="copy-bottom white center">
-                <button class="btn-audio" type="button" onclick="playAudio()" >
-                    SOUND
-                    <div class="btn-wave">
-                        <span class="audio"></span>
-                        <span class="audio"></span>
-                        <span class="audio"></span>
-                        <span class="audio"></span>
-                        <span class="audio"></span>
-                    </div>
-                </button>
-            </div>
+          
             <div class="social-list social-list-bottom boxed">
                 <!--<a href="#" class="icon img-icon"><img src="./img/discord-96.png" alt="discord-icon" width="22px" height="22px"></a>-->
                 <!--<a href="#" class="icon ion-social-facebook"></a>-->
